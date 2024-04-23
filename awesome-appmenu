@@ -395,7 +395,7 @@ class Menu():
   def write(self, terminal="xterm"):
 
     home = os.environ["HOME"]
-    menufile = home + "/.config/awesome/appmenu.lua"
+    menufile = home + "/.config/awesome/awesome-appmenu.lua"
     try:
       f = open(menufile, 'w')
     except IOError:
